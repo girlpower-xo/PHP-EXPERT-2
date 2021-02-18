@@ -6,14 +6,14 @@ De eindopdracht voor PHP EXPERT 2 gaat over de inhoud van PHP EXPERT en MYSQL Ad
 
 Je dient gebruik te maken van
 
-- CREATE, READ, UPDATE, DELETE (CRUD) en JOINS
-- PDO
-- HTML
-- CSS (Bootstrap mag)
-- PHP
-- MYSQL
-- POST en GET
-- SESSION
+-   CREATE, READ, UPDATE, DELETE (CRUD) en JOINS
+-   PDO
+-   HTML
+-   CSS (Bootstrap mag)
+-   PHP
+-   MYSQL
+-   POST en GET
+-   SESSION
 
 `Alleen in overleg mag je een PHP framework gebruiken`
 
@@ -21,50 +21,54 @@ Je dient gebruik te maken van
 
 Fietsenmaker Snelle Jelle wil na een reparatiebeurt zijn klanten per SMS of Whatspapp op de hoogte stellen dat de reparatie van de fiets klaar is. In dit bericht wil hij ook vertellen hoe hoog de reparatiekosten zijn.​
 
-- Iedere gebruiker dient in te loggen en uit te loggen​
+-   Iedere gebruiker dient in te loggen en uit te loggen​
 
-- Er zijn twee type gebruikers: __medewerkers__ en __klanten​__
-- Iedere klant kan 0 of meerdere fietsen hebben
+-   Er zijn twee type gebruikers: **medewerkers** en **klanten​**
+-   Iedere klant kan 0 of meerdere fietsen hebben
 
-Een __klant__ kan ​
+medewerker een klant aanmaken
+medewerker fiets aan maken 
+medewerker een reparatie aan maken
 
-- Al haar reparaties in een overzicht zien​
-- Kan alle reparaties aan een specifieke fiets bekijken
+Een **klant** kan ​
 
-Een __medewerker__ kan ​
+-   Al haar reparaties in een overzicht zien​ (deze heb ik overgeslagen)
+-   Kan alle reparaties aan een specifieke fiets bekijken(hier maak ik wel van dat de klant ook kan zien welke tweede hands fietsen je kan kopen die andere klanten niet meer willen hebben)
 
-- Alle reparaties bekijken, wijzigen of verwijderen​
-- Alle fietsen bekijken, wijzigen of verwijderen​
-- Alle klanten bekijken, wijzigen of verwijderen​
+Een **medewerker** kan ​
 
-Een __medewerker__ heeft de volgende eigenschappen:
+-   Alle reparaties bekijken, wijzigen of verwijderen​
+-   Alle fietsen bekijken, wijzigen of verwijderen​
+-   Alle klanten bekijken, wijzigen of verwijderen​
 
-- voornaam
-- achternaam
-- email
-- telefoonnummer
-- wachtwoord
-- rol
+Een **medewerker** heeft de volgende eigenschappen:
 
-Een __reparatie__ heeft de volgende eigenschappen:
+-   voornaam
+-   achternaam
+-   email
+-   telefoonnummer
+-   wachtwoord
+-   rol
 
-- titel
-- datum
-- tijdstip
-- opmerkingen
-- kosten
+Een **reparatie** heeft de volgende eigenschappen:
 
-Een __fiets__ heeft de volgende eigenschappen:
+-   titel
+-   datum
+-   tijdstip
+-   opmerkingen
+-   kosten
 
-- merk
-- model (man of vrouw)
-- type (elektrisch of niet)
-- kleur
-- soort rem
+Een **fiets** heeft de volgende eigenschappen:
+
+-   merk
+-   model (man of vrouw)
+-   type (elektrisch of niet)
+-   kleur
+-   soort rem( hand rem of achter uit trap rem)
 
 ## Opdracht
 
-Jij dient een volledig werkende Webapplicatie op te leveren. Je wordt beoordeeld op je presentatie van het product en de uitleg van de flow van je code. 
+Jij dient een volledig werkende Webapplicatie op te leveren. Je wordt beoordeeld op je presentatie van het product en de uitleg van de flow van je code.
 
 ### Projectgrens
 
